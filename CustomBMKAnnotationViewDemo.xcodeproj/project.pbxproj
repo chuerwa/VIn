@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01FBEC33A94BC558AB871C88 /* libPods-CustomBMKAnnotationViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5F98432B1D7195A2F47076F /* libPods-CustomBMKAnnotationViewDemo.a */; };
+		124694601E7A223A004E2EF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1246945F1E7A223A004E2EF4 /* main.m */; };
+		124694631E7A223A004E2EF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 124694621E7A223A004E2EF4 /* AppDelegate.m */; };
+		124694661E7A223B004E2EF4 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 124694651E7A223B004E2EF4 /* ViewController.mm */; };
+		124694691E7A223B004E2EF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 124694671E7A223B004E2EF4 /* Main.storyboard */; };
+		1246946B1E7A223B004E2EF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1246946A1E7A223B004E2EF4 /* Assets.xcassets */; };
+		1246946E1E7A223B004E2EF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1246946C1E7A223B004E2EF4 /* LaunchScreen.storyboard */; };
+		1278D66A1E7A607F0063A2E5 /* 乡镇终端@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1278D6691E7A607F0063A2E5 /* 乡镇终端@2x.png */; };
+		1278D66C1E7A62050063A2E5 /* 乡镇终端@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1278D66B1E7A62050063A2E5 /* 乡镇终端@3x.png */; };
+		1278D66F1E7A62EB0063A2E5 /* PredictView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1278D66E1E7A62EB0063A2E5 /* PredictView.xib */; };
+		1278D6751E7A63C60063A2E5 /* 预报弹出框.png in Resources */ = {isa = PBXBuildFile; fileRef = 1278D6701E7A63C60063A2E5 /* 预报弹出框.png */; };
+		1278D6761E7A63C60063A2E5 /* day_0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1278D6711E7A63C60063A2E5 /* day_0@2x.png */; };
+		1278D6771E7A63C60063A2E5 /* day_0@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1278D6721E7A63C60063A2E5 /* day_0@3x.png */; };
+		1278D6781E7A63C60063A2E5 /* night_0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1278D6731E7A63C60063A2E5 /* night_0@2x.png */; };
+		1278D6791E7A63C60063A2E5 /* night_0@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1278D6741E7A63C60063A2E5 /* night_0@3x.png */; };
+		1278D67C1E7A71E20063A2E5 /* CustomAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1278D67B1E7A71E20063A2E5 /* CustomAnnotationView.m */; };
+		1278D67E1E7A79F80063A2E5 /* 地灾点.png in Resources */ = {isa = PBXBuildFile; fileRef = 1278D67D1E7A79F80063A2E5 /* 地灾点.png */; };
+		1278D6811E7A7FB20063A2E5 /* ImageAnnoTationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1278D6801E7A7FB20063A2E5 /* ImageAnnoTationView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1246945B1E7A223A004E2EF4 /* CustomBMKAnnotationViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomBMKAnnotationViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1246945F1E7A223A004E2EF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		124694611E7A223A004E2EF4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		124694621E7A223A004E2EF4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		124694641E7A223B004E2EF4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		124694651E7A223B004E2EF4 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		124694681E7A223B004E2EF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1246946A1E7A223B004E2EF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1246946D1E7A223B004E2EF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1246946F1E7A223B004E2EF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1278D6601E7A2CE10063A2E5 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Header.h; path = ../Header.h; sourceTree = "<group>"; };
+		1278D6621E7A2EBB0063A2E5 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		1278D6691E7A607F0063A2E5 /* 乡镇终端@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "乡镇终端@2x.png"; sourceTree = "<group>"; };
+		1278D66B1E7A62050063A2E5 /* 乡镇终端@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "乡镇终端@3x.png"; sourceTree = "<group>"; };
+		1278D66E1E7A62EB0063A2E5 /* PredictView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PredictView.xib; sourceTree = "<group>"; };
+		1278D6701E7A63C60063A2E5 /* 预报弹出框.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "预报弹出框.png"; sourceTree = "<group>"; };
+		1278D6711E7A63C60063A2E5 /* day_0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "day_0@2x.png"; sourceTree = "<group>"; };
+		1278D6721E7A63C60063A2E5 /* day_0@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "day_0@3x.png"; sourceTree = "<group>"; };
+		1278D6731E7A63C60063A2E5 /* night_0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "night_0@2x.png"; sourceTree = "<group>"; };
+		1278D6741E7A63C60063A2E5 /* night_0@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "night_0@3x.png"; sourceTree = "<group>"; };
+		1278D67A1E7A71E20063A2E5 /* CustomAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomAnnotationView.h; path = ../CustomAnnotationView.h; sourceTree = "<group>"; };
+		1278D67B1E7A71E20063A2E5 /* CustomAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomAnnotationView.m; path = ../CustomAnnotationView.m; sourceTree = "<group>"; };
+		1278D67D1E7A79F80063A2E5 /* 地灾点.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "地灾点.png"; sourceTree = "<group>"; };
+		1278D67F1E7A7FB20063A2E5 /* ImageAnnoTationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageAnnoTationView.h; path = ../ImageAnnoTationView.h; sourceTree = "<group>"; };
+		1278D6801E7A7FB20063A2E5 /* ImageAnnoTationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageAnnoTationView.m; path = ../ImageAnnoTationView.m; sourceTree = "<group>"; };
+		7947447E02F8A9F4D2A7936A /* Pods-CustomBMKAnnotationViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomBMKAnnotationViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomBMKAnnotationViewDemo/Pods-CustomBMKAnnotationViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		9F93013306B5F263B6FF12A0 /* Pods-CustomBMKAnnotationViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomBMKAnnotationViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomBMKAnnotationViewDemo/Pods-CustomBMKAnnotationViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A5F98432B1D7195A2F47076F /* libPods-CustomBMKAnnotationViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CustomBMKAnnotationViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		124694581E7A223A004E2EF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01FBEC33A94BC558AB871C88 /* libPods-CustomBMKAnnotationViewDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		124694521E7A223A004E2EF4 = {
+			isa = PBXGroup;
+			children = (
+				1246945D1E7A223A004E2EF4 /* CustomBMKAnnotationViewDemo */,
+				1246945C1E7A223A004E2EF4 /* Products */,
+				14E2CF30175971A35D62B82C /* Pods */,
+				65D180122D8DFD91D324566C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1246945C1E7A223A004E2EF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1246945B1E7A223A004E2EF4 /* CustomBMKAnnotationViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1246945D1E7A223A004E2EF4 /* CustomBMKAnnotationViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				124694611E7A223A004E2EF4 /* AppDelegate.h */,
+				124694621E7A223A004E2EF4 /* AppDelegate.m */,
+				124694641E7A223B004E2EF4 /* ViewController.h */,
+				124694651E7A223B004E2EF4 /* ViewController.mm */,
+				1278D66D1E7A62CA0063A2E5 /* View */,
+				1278D6611E7A2E120063A2E5 /* Config */,
+				1278D6631E7A3D280063A2E5 /* Resource */,
+				124694671E7A223B004E2EF4 /* Main.storyboard */,
+				1246946A1E7A223B004E2EF4 /* Assets.xcassets */,
+				1246946C1E7A223B004E2EF4 /* LaunchScreen.storyboard */,
+				1246946F1E7A223B004E2EF4 /* Info.plist */,
+				1246945E1E7A223A004E2EF4 /* Supporting Files */,
+			);
+			path = CustomBMKAnnotationViewDemo;
+			sourceTree = "<group>";
+		};
+		1246945E1E7A223A004E2EF4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1246945F1E7A223A004E2EF4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1278D6611E7A2E120063A2E5 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				1278D6601E7A2CE10063A2E5 /* Header.h */,
+				1278D6621E7A2EBB0063A2E5 /* PrefixHeader.pch */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		1278D6631E7A3D280063A2E5 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				1278D67D1E7A79F80063A2E5 /* 地灾点.png */,
+				1278D6691E7A607F0063A2E5 /* 乡镇终端@2x.png */,
+				1278D66B1E7A62050063A2E5 /* 乡镇终端@3x.png */,
+				1278D6701E7A63C60063A2E5 /* 预报弹出框.png */,
+				1278D6711E7A63C60063A2E5 /* day_0@2x.png */,
+				1278D6721E7A63C60063A2E5 /* day_0@3x.png */,
+				1278D6731E7A63C60063A2E5 /* night_0@2x.png */,
+				1278D6741E7A63C60063A2E5 /* night_0@3x.png */,
+			);
+			name = Resource;
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		1278D66D1E7A62CA0063A2E5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1278D67F1E7A7FB20063A2E5 /* ImageAnnoTationView.h */,
+				1278D6801E7A7FB20063A2E5 /* ImageAnnoTationView.m */,
+				1278D67A1E7A71E20063A2E5 /* CustomAnnotationView.h */,
+				1278D67B1E7A71E20063A2E5 /* CustomAnnotationView.m */,
+				1278D66E1E7A62EB0063A2E5 /* PredictView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		14E2CF30175971A35D62B82C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F93013306B5F263B6FF12A0 /* Pods-CustomBMKAnnotationViewDemo.debug.xcconfig */,
+				7947447E02F8A9F4D2A7936A /* Pods-CustomBMKAnnotationViewDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		65D180122D8DFD91D324566C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5F98432B1D7195A2F47076F /* libPods-CustomBMKAnnotationViewDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1246945A1E7A223A004E2EF4 /* CustomBMKAnnotationViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 124694721E7A223B004E2EF4 /* Build configuration list for PBXNativeTarget "CustomBMKAnnotationViewDemo" */;
+			buildPhases = (
+				0F5E677F84E27D0826F9D563 /* [CP] Check Pods Manifest.lock */,
+				124694571E7A223A004E2EF4 /* Sources */,
+				124694581E7A223A004E2EF4 /* Frameworks */,
+				124694591E7A223A004E2EF4 /* Resources */,
+				006ED45A3E891B0E757AD0D1 /* [CP] Embed Pods Frameworks */,
+				C04E0308EE03D56E69C7D138 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomBMKAnnotationViewDemo;
+			productName = CustomBMKAnnotationViewDemo;
+			productReference = 1246945B1E7A223A004E2EF4 /* CustomBMKAnnotationViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		124694531E7A223A004E2EF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = bwayCW;
+				TargetAttributes = {
+					1246945A1E7A223A004E2EF4 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = N3S769WR9H;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 124694561E7A223A004E2EF4 /* Build configuration list for PBXProject "CustomBMKAnnotationViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 124694521E7A223A004E2EF4;
+			productRefGroup = 1246945C1E7A223A004E2EF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1246945A1E7A223A004E2EF4 /* CustomBMKAnnotationViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		124694591E7A223A004E2EF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1278D66F1E7A62EB0063A2E5 /* PredictView.xib in Resources */,
+				1246946E1E7A223B004E2EF4 /* LaunchScreen.storyboard in Resources */,
+				1278D6751E7A63C60063A2E5 /* 预报弹出框.png in Resources */,
+				1246946B1E7A223B004E2EF4 /* Assets.xcassets in Resources */,
+				1278D6791E7A63C60063A2E5 /* night_0@3x.png in Resources */,
+				1278D6781E7A63C60063A2E5 /* night_0@2x.png in Resources */,
+				1278D6771E7A63C60063A2E5 /* day_0@3x.png in Resources */,
+				1278D66A1E7A607F0063A2E5 /* 乡镇终端@2x.png in Resources */,
+				1278D66C1E7A62050063A2E5 /* 乡镇终端@3x.png in Resources */,
+				1278D67E1E7A79F80063A2E5 /* 地灾点.png in Resources */,
+				1278D6761E7A63C60063A2E5 /* day_0@2x.png in Resources */,
+				124694691E7A223B004E2EF4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		006ED45A3E891B0E757AD0D1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CustomBMKAnnotationViewDemo/Pods-CustomBMKAnnotationViewDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0F5E677F84E27D0826F9D563 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C04E0308EE03D56E69C7D138 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CustomBMKAnnotationViewDemo/Pods-CustomBMKAnnotationViewDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		124694571E7A223A004E2EF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				124694661E7A223B004E2EF4 /* ViewController.mm in Sources */,
+				1278D6811E7A7FB20063A2E5 /* ImageAnnoTationView.m in Sources */,
+				124694631E7A223A004E2EF4 /* AppDelegate.m in Sources */,
+				1278D67C1E7A71E20063A2E5 /* CustomAnnotationView.m in Sources */,
+				124694601E7A223A004E2EF4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		124694671E7A223B004E2EF4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				124694681E7A223B004E2EF4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1246946C1E7A223B004E2EF4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1246946D1E7A223B004E2EF4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		124694701E7A223B004E2EF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		124694711E7A223B004E2EF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		124694731E7A223B004E2EF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F93013306B5F263B6FF12A0 /* Pods-CustomBMKAnnotationViewDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N3S769WR9H;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/word/Desktop/CustomBMKAnnotationViewDemo/CustomBMKAnnotationViewDemo/Config/PrefixHeader.pch;
+				INFOPLIST_FILE = CustomBMKAnnotationViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CustomBMKAnnotationViewDemo/Vendor/thirdlibs",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wordtech.CustomBMKAnnotationViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		124694741E7A223B004E2EF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7947447E02F8A9F4D2A7936A /* Pods-CustomBMKAnnotationViewDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N3S769WR9H;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/word/Desktop/CustomBMKAnnotationViewDemo/CustomBMKAnnotationViewDemo/Config/PrefixHeader.pch;
+				INFOPLIST_FILE = CustomBMKAnnotationViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CustomBMKAnnotationViewDemo/Vendor/thirdlibs",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wordtech.CustomBMKAnnotationViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		124694561E7A223A004E2EF4 /* Build configuration list for PBXProject "CustomBMKAnnotationViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				124694701E7A223B004E2EF4 /* Debug */,
+				124694711E7A223B004E2EF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		124694721E7A223B004E2EF4 /* Build configuration list for PBXNativeTarget "CustomBMKAnnotationViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				124694731E7A223B004E2EF4 /* Debug */,
+				124694741E7A223B004E2EF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 124694531E7A223A004E2EF4 /* Project object */;
+}
