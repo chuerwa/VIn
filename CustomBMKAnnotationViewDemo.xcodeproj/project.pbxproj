@@ -426,7 +426,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = N3S769WR9H;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/word/Desktop/CustomBMKAnnotationViewDemo/CustomBMKAnnotationViewDemo/Config/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = /Users/word/Desktop/Buwei/CustomBMKAnnotationViewDemo/CustomBMKAnnotationViewDemo/Config/PrefixHeader.pch;
 				INFOPLIST_FILE = CustomBMKAnnotationViewDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -446,7 +446,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = N3S769WR9H;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/word/Desktop/CustomBMKAnnotationViewDemo/CustomBMKAnnotationViewDemo/Config/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = /Users/word/Desktop/Buwei/CustomBMKAnnotationViewDemo/CustomBMKAnnotationViewDemo/Config/PrefixHeader.pch;
 				INFOPLIST_FILE = CustomBMKAnnotationViewDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
