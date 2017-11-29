@@ -60,6 +60,7 @@
     displayParam.locationViewOffsetY = 0;//定位偏移量（纬度）
     [_mapView updateLocationViewWithParam:displayParam];
     [self startLocation];
+    NSLog(@"测试SourceTree");
 }
 
 /**
